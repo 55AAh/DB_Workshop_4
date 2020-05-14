@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4739BF5-A74D-8080-1490-55CAFE7FC551" name="MrtStatus">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>6219371E-EE78-5657-D4A5-DBC3171E0A44</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mstatus_id" id="61E009C4-BF9B-4B1B-C3E6-129FE145B109">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>D109FE48-DC93-0CBB-052B-0D6DE2A889F3</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E69E8E3A-67D0-6B92-008A-931F838A02B3">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>546C5E2A-3B32-4690-CF27-670819F81B98</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3EADF1F-32E7-884B-E958-854143A69980" name="MrtStatus_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>7D42B2D2-0E16-B3FF-0BC3-7E46453A3A7E</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E009C4-BF9B-4B1B-C3E6-129FE145B109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

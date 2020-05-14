@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F5065A0-8B4F-2A9B-AB57-A2123403ECA6" name="PerfScore">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>7030D0E7-6453-5AE1-9989-C921FF69A8BB</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pscore_id" id="4162A5D9-9C66-EDF1-66C2-DD598DDE3EA3">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>387355FF-BB71-6322-2C7D-E06BD26E8C2F</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="score" id="85E75820-8C90-87DD-14E9-C01D9D293432">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>179107BA-D881-9570-B5BD-59B091AA4AF6</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D6B7C41-E4DF-9C2B-8559-3DF37FA8B7F1" name="PerfScore_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>66D78CC4-25FC-C28D-DDAE-6D30C54F3DA0</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4162A5D9-9C66-EDF1-66C2-DD598DDE3EA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

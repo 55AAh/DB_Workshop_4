@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AACA39D2-4BBB-00E9-42DC-F7331FF58561" name="Human">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>D5630003-5FB4-72DD-ED80-B847F82DD150</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="human_id" id="BAF779AA-9951-5FD7-C914-259D77831795">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>896E20E8-CED3-4432-F86B-DD46673D6FCA</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="00AB0978-5296-53EA-E03B-05D032307CA7">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>2B9BC107-D0EC-3768-6D54-C30384817AFA</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MrtStatus_mstatus_id" id="6D053144-4026-AFC4-2435-865C806A2800">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>40AF5566-B683-702C-57F5-ED751416A038</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB5C0318-28EE-7675-F6AD-361FFFF10F88" referredColumn="61E009C4-BF9B-4B1B-C3E6-129FE145B109"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2274613C-BCB8-ACA1-F381-79C6A0D71D30" name="Human_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:05:59 UTC</createdTime>
+<generatorID>ACF74FFE-6374-8587-C056-D9DF93A02211</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF779AA-9951-5FD7-C914-259D77831795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4665665-AD07-1986-15B4-242CAAED0F9F" name="Human_MrtStatus_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-07 18:06:00 UTC</createdTime>
+<generatorID>D494BA04-2788-3301-B5F7-1E3C7732460F</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D053144-4026-AFC4-2435-865C806A2800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
