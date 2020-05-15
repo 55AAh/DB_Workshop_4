@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE3D9D59-3027-EFAC-ADB6-736D7D52F25A" containerWithKeyObject="C5EF45EF-50DF-7241-B66E-5B8483B19317" localFKIndex="FACBFD11-8162-20A5-EF9F-98C8D0B16EC8" name="Human_ZipCode_Human_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-15 15:13:45 UTC</createdTime>
+<generatorID>C296EF96-F26E-6F5D-D55F-B9DFE9A69103</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<referredTableLongName>Human</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C10A998-5CD3-CEA6-3771-D92148DE6938</referredTableID>
+<keyObject>2E4F29DE-DF90-F966-FBDE-EA9C1EDA011A</keyObject>
+<referredKeyID>2E4F29DE-DF90-F966-FBDE-EA9C1EDA011A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>human_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

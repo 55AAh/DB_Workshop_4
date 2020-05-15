@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DEFA78AA-1B37-BD0E-F542-1AF8A19B94C9" containerWithKeyObject="B6311619-956E-A5B6-866C-42454E020E82" localFKIndex="3B746956-5C9A-C772-1E9B-00A60D89E232" name="Empl_PerfScore_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-15 15:13:45 UTC</createdTime>
+<generatorID>F9F3893A-9738-271A-0B74-AD91DC142571</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<referredTableLongName>PerfScore</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9582A5AA-E052-FEAD-9F71-8D89B71D0764</referredTableID>
+<keyObject>D54AEF0C-BF09-76AF-7A26-C0F98731041D</keyObject>
+<referredKeyID>D54AEF0C-BF09-76AF-7A26-C0F98731041D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pscore_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

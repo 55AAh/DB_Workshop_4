@@ -4,7 +4,7 @@
 <createdTime>2020-05-02 12:07:34 UTC</createdTime>
 <ownerDesignName>DataModel</ownerDesignName>
 <engineerTo>
-<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+<item key="B443B474-5C9A-A57B-0A3D-634515316CB7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>C296EF96-F26E-6F5D-D55F-B9DFE9A69103</generatorID>
 <ownerDesignName>DataModel</ownerDesignName>
 <engineerTo>
-<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+<item key="B443B474-5C9A-A57B-0A3D-634515316CB7" value="true"/>
 </engineerTo>
 <referedAttribute>896E20E8-CED3-4432-F86B-DD46673D6FCA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,12 +35,13 @@
 <generatorID>FDCE0D8F-DA8F-D9CF-C374-8491F3F6E888</generatorID>
 <ownerDesignName>DataModel</ownerDesignName>
 <engineerTo>
-<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+<item key="B443B474-5C9A-A57B-0A3D-634515316CB7" value="true"/>
 </engineerTo>
 <referedAttribute>98D4E0DC-CBCD-98B3-A858-7EC12893F512</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -50,7 +51,7 @@
 <createdTime>2020-05-02 14:11:37 UTC</createdTime>
 <ownerDesignName>DataModel</ownerDesignName>
 <engineerTo>
-<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+<item key="B443B474-5C9A-A57B-0A3D-634515316CB7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>C296EF96-F26E-6F5D-D55F-B9DFE9A69103,FDCE0D8F-DA8F-D9CF-C374-8491F3F6E888</newElementsIDs>
